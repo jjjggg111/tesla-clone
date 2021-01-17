@@ -10,8 +10,8 @@ const item = ({
   backgroundImg,
   leftBtnTxt,
   leftBtnLink,
-  RightBtnTxt,
-  RightBtnLink,
+  rightBtnTxt,
+  rightBtnLink,
   twoButtons,
   first,
 }) => {
@@ -23,23 +23,20 @@ const item = ({
           <div className="item__textDesc">
             <p>{desc}</p>
           </div>
-          <div className="item__lowerThird">
-            <div className="item__buttons">
-              <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
-              {twoButtons && (
-                <Button
-                  imp="secondary"
-                  text={RightBtnTxt}
-                  link={RightBtnLink}
-                />
-              )}
-            </div>
-            {first && (
-              <div className="item__expand">
-                <ExpandMoreIcon />
-              </div>
+        </div>
+
+        <div className="item__lowerThird">
+          <div className="item__buttons">
+            <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
+            {twoButtons && (
+              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
             )}
           </div>
+          {first && (
+            <div className="item__expand">
+              <ExpandMoreIcon />
+            </div>
+          )}
         </div>
       </div>
     </div>

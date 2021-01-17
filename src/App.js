@@ -23,8 +23,9 @@ function App() {
           backgroundImg={SolarPanel}
           leftBtnTxt="ORDER NOW"
           leftBtnLink=""
-          RightBtnTxt="LEARN MORE"
-          TwoButtons="true"
+          rightBtnTxt="LEARN MORE"
+          rightBtnLink=""
+          twoButtons="true"
           first
         />
         <Item
@@ -34,8 +35,8 @@ function App() {
           backgroundImg={ModelS}
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
-          RightBtnTxt="EXISTING INVENTORY"
-          TwoButtons="true"
+          rightBtnTxt="EXISTING INVENTORY"
+          twoButtons="true"
         />
         <Item
           title="Model 3"
@@ -44,8 +45,8 @@ function App() {
           backgroundImg={Model3}
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
-          RightBtnTxt="EXISTING INVENTORY"
-          TwoButtons="true"
+          rightBtnTxt="EXISTING INVENTORY"
+          twoButtons="true"
         />
         <Item
           title="Model X"
@@ -54,8 +55,9 @@ function App() {
           backgroundImg={ModelX}
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
-          RightBtnTxt="EXISTING INVENTORY"
-          TwoButtons="true"
+          rightBtnTxt="EXISTING INVENTORY"
+          rightBtnLink=""
+          twoButtons="true"
         />
         <Item
           title="Model Y"
@@ -64,8 +66,9 @@ function App() {
           backgroundImg={ModelY}
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
-          RightBtnTxt="LEARN MORE"
-          TwoButtons="true"
+          rightBtnTxt="LEARN MORE"
+          rightBtnLink=""
+          twoButtons="true"
         />
         <Item
           title="Solar for New Roofs"
@@ -76,7 +79,8 @@ function App() {
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
           RightBtnTxt="LEARN MORE"
-          TwoButtons="true"
+          rightBtnLink=""
+          twoButtons="true"
         />
         <Item
           title="Accessories"
@@ -85,8 +89,9 @@ function App() {
           backgroundImg={Accessories}
           leftBtnTxt="SHOP NOW"
           leftBtnLink=""
-          RightBtnTxt="LEARN MORE"
-          TwoButtons="true"
+          // rightBtnTxt="LEARN MORE"
+          // rightBtnLink=""
+          // twoButtons="false"
         />
       </div>
     </div>
