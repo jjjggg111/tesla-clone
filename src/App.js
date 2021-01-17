@@ -78,7 +78,7 @@ function App() {
           backgroundImg={SolarRoof}
           leftBtnTxt="CUSMTOM ORDER"
           leftBtnLink=""
-          RightBtnTxt="LEARN MORE"
+          rightBtnTxt="LEARN MORE"
           rightBtnLink=""
           twoButtons="true"
         />
